@@ -1,0 +1,9 @@
+.paige{
+    text-align: center;
+}
+.paige a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}

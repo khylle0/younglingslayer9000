@@ -1,0 +1,33 @@
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: darkkhaki;
+    color: darkorange;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: hotpink;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: darkslategray;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px coral;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: crimson;
+}
+.dropdown a:hover{
+    background-color: darkgreen;
+}

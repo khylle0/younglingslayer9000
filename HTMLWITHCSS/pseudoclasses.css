@@ -1,0 +1,19 @@
+li:hover{
+    background-color: darkseagreen;
+}
+
+li:not(:hover){
+    background-color: dodgerblue;
+}
+li:nth-child(even){
+    background-color: green;
+}
+
+#greetings p{
+    background-color: coral;
+    padding: 10px;
+    display: none;
+}
+#greetings:hover p{
+    display: block;
+}

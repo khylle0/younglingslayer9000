@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    border: 10px solid gold;
+    height: 90vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: burlywood;
+}
+#box2{
+    background-color: firebrick;
+}
+#box3{
+    background-color: blueviolet;
+}
+#box4{
+    background-color: salmon;
+}
